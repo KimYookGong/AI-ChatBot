@@ -1,0 +1,18 @@
+{
+  "builds": [
+    {
+      "src": "execution/chatbot_app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "execution/chatbot_app.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "execution/chatbot_app.py"
+    }
+  ]
+}
