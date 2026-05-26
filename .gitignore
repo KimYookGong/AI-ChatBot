@@ -1,0 +1,25 @@
+# Agent 3-Layer Architecture 임시 폴더
+.tmp/
+
+# 환경 변수 및 설정 파일
+.env
+
+# Google OAuth 자격 증명
+credentials.json
+token.json
+
+# 파이썬 캐시 파일
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 가상환경
+venv/
+.venv/
+
+# 시스템 및 IDE 설정
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
